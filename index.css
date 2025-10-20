@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 20px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.gap {
+    gap: 1px;
+}
+
+.gap-y {
+    gap: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.label {
+    font-size: 18px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding-left: 3px;
+    font-size: 18px;
+    border: 2px solid #dee0e1;
+    border-radius: 7px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.7);
+}
+
+input:focus {
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 1);
+    outline: none;
+    border-top: 2px solid black;
+    border-right: 2px solid red;
+    border-bottom: 2px solid green;
+    border-left: 2px solid blue;
+}
+
+.card {
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    border: 2px solid #dee0e1;
+    font-size: 22.5px;
+    border-radius: 7px;
+    transition: all 0.2s ease-in-out;
+    color: #4d4d4d;
+    background: transparent;
+}
+
+.btn:hover {
+    border: 2px solid green;
+}
+
+.btn:active {
+    border-top: 2px solid black;
+    border-right: 2px solid red;
+    border-bottom: 2px solid green;
+    border-left: 2px solid blue;
+}
